@@ -1,39 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pprincipal</title>
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="nav-right-section">
-                <li>
-                    <a href="">Usuarios</a>
-                </li>
-                <li>
-                    <a href="">Estudiantes</a>
-                </li>
-                <li>
-                    <a href="">Cursos</a>
-                </li>
-                <li>
-                    <a href="">Informes</a>
-                </li>
-                <li class="menu-icon">
-                    <a href=""></a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://lh3.googleusercontent.com/-RhgQF1hHFHQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcAiE2Ybhh1j4SCgSkqpWH3fEt1Fw.CMID/s32-c/photo.jpg" alt="" >
-                    </a>
-                </li>
-            </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pprincipal</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="https://kit.fontawesome.com/521d8d20ea.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--::::barra navegacion::::::-->
+        <header>
+            <div class="menu">
+            <img src="img/logo-escudo.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#">Usuarios</a></li>
+                    <li><a href="#">Estudiantes</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Informes</a></li>
+                    <li>
+                        <div class="despeg"> 
+                            <select class="logout">
+                                 <option value="1">log out</option> 
+                                 <option value="2">Cerrar sesion</option> 
+                            </select>
+                        </div> 
+                    </li> 
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <!--::::barra navegacion::::::-->
+        <br>
+        <br>
+        <!--:::: cards::::::-->
+        <section>
+            <div class="container">
+                <div class="card">
+                    <img src="img/logo-usuarios.png">
+                    <h4>USUARIOS</h4>
+                    <a href="#">Ingresar</a>
+                </div>
                 
-        </nav>
-    </header>
-</body>
+                <div class="card">
+                    <img src="img/estudiantes.jpeg">
+                    <h4>ESTUDIANTES</h4>
+                    <a href="#">Ingresar</a>
+                </div>
+                
+                <div class="card">
+                    <img src="img/cursos.png">
+                    <h4>CURSOS</h4>
+                    <a href="#">Ingresar</a>
+                </div>
+
+                <div class="card">
+                    <img src="img/informes.jpg">
+                    <h4>INFORMES</h4>
+                    <a href="#">Ingresar</a>
+                </div>
+            </div>
+        </section>
+        <!--::::cards::::::-->
+        <br>
+        <br>
+        <!--::::Pie de Pagina::::::-->
+        <section></section>
+            <footer class="pie-pagina">
+                <div class="grupo-1">
+                    <div class="box">
+                        <figure>
+                            <a href="#">
+                                <img src="img/iu-digital-de-antioquia.jpg" alt="Logo iud">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="box">
+                        <h2>Comunicate con nosotros</h2>
+                        <ul>
+                            <li> Teléfono: 604 520 07 50</li>
+                            <li>Registro y Control
+                            Ext. 102. 103</li>
+                            <li> Atención al Ciudadano
+                            Ext. 109</li>                                
+                        </ul> 
+                        <h2>Contacto</h2>
+                        <ul>
+                            <li>Admisiones y Registro
+                            +57 3163920781
+                            +57 3176471890
+                            admisiones@iudigital.edu.co</li>
+                            <li>Bienestar Universitario
+                            +57 3176566416</li>
+                            <li> Atención al Ciudadano
+                            atencionalciudadano@iudigital.edu.co</li>
+                            <li>Notificaciones Judiciales
+                            notificacionesjudiciales@iudigital.edu.co</li>                                
+                        </ul> 
+                    </div>
+                    <div class="box">
+                        <h2>SIGUENOS</h2>
+                        <div class="red-social">
+                            <a href="https://www.facebook.com/soyiudigital/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/iudigital/"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/company/iudigital/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/IUDIGITAL"><i class="fab fa-twitter-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-2">
+                    <small> Todos los Derechos Reservados &copy; 2020 <b>ORD No 74 de 2017- Vigilada MinEducación
+                        NIT. 901.168.222-9</b></small>
+                </div>
+            </footer>
+        </section>
+        <!--::::Pie de Pagina::::::-->
+    </body>
 </html>
